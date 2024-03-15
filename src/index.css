@@ -15,29 +15,19 @@
 
   /* color */
   --color-primary: #fff;
-  --color-secondary: #000;
+  --color-secondary: #333232;
   --color-header: rgba(255, 0, 0, 0.51);
 }
-
-/* Hard Reset */
-
-/* ::-webkit-scrollbar {
-  background: ;
-}
-
-::-webkit-scrollbar-thumb {
-  background: ;
-} */
-
+/* 
 * {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
   vertical-align: baseline;
-}
+} */
 
-img,
+/* img,
 picture,
 video,
 iframe,
@@ -93,7 +83,7 @@ q:before,
 q:after {
   content: "";
   content: none;
-}
+} */
 
 /* Configurar el color del texto seleccioado */
 
@@ -102,7 +92,7 @@ q:after {
   color: ;
 } */
 
-form,
+/* form,
 input,
 textarea,
 select,
@@ -127,11 +117,11 @@ svg {
   width: 100%;
   display: block;
   fill: currentColor;
-}
+} */
 
 body {
   min-height: 100vh;
-  font-size: 16px;
+  font-size: 13px;
   font-family: var(--typo-primary);
   color: var(--color-primary);
   background-color: var(--color-secondary);

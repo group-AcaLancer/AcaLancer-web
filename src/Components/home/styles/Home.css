@@ -1,0 +1,37 @@
+/* carousel text styles */
+.carousel-wrapper {
+  position: relative;
+  width: 50%;
+  margin-top: 100px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  margin: -10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #ccc;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+
+  /* top: 0; */
+  left: -30%;
+  bottom: 0;
+  position: relative;
+}
+
+.indicator.active {
+  background-color: rgb(105, 97, 97);
+}
+
+.carousel {
+  margin-bottom: 20px; /* Ajusta el margen inferior para dejar espacio para los puntos de navegación */
+}
+
+.carousel .thumbs-wrapper {
+  position: absolute;
+  bottom: 10px; /* Ajusta la posición vertical */
+  left: 10%; /* Centra horizontalmente */
+  transform: translateX(-50%);
+}
