@@ -1,0 +1,35 @@
+.home__slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  margin: 0; /* Elimina el margen */
+  padding: 0; /* Elimina el padding */
+  background: linear-gradient(-45deg, #85c1d1, #8c6cff 100%);
+  z-index: 2;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.home__videoPlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0; /* Elimina el margen */
+  padding: 0; /* Elimina el padding */
+  opacity: 0.18;
+}
+
+.video__background {
+  width: 100%;
+  height: auto;
+  min-height: 100%; /* Ajusta la altura mínima del video al 100% de la ventana del navegador */
+  min-width: 100%; /* Ajusta el ancho mínimo del video al 100% de la ventana del navegador */
+  object-fit: cover;
+}

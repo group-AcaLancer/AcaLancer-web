@@ -12,7 +12,7 @@ const Home = () => {
           showThumbs={false}
           infiniteLoop={true}
           autoPlay={true}
-          interval={1000}
+          interval={9000}
           showArrows={false} // Oculta los botones laterales de navegación
           renderIndicator={(onClickHandler, isSelected, index, label) => {
             return (
@@ -26,38 +26,51 @@ const Home = () => {
             );
           }}
         >
-          <div>
-            <h2>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              alias reprehenderit quaerat explicabo culpa dignissimos est
-              temporibus natus, quae assumenda! Assumenda ipsa doloremque
-              laboriosam in dolor, quisquam labore quidem saepe.
+          <div className="carousel__container">
+            <h2 className="carousel__title">
+              bienvenido a <span>nuestro mundo</span>
             </h2>
+            <p className="carousel__text">
+              En esta travesía, viajando por vastas y desconocidas galaxias,
+              hemos descubierto nuestros mayores potenciales y nuevas maneras de
+              hacer las cosas. Si hay algo en lo que nos consideramos muy
+              buenos, es en mejorar continuamente. Por eso somos inquietos,
+              activos, creativos, y unos buenos aliados para llevar tus
+              proyectos fuera de este planeta.
+            </p>
           </div>
           <div>
-            <h4>jjjjjjjjjjjjjj</h4>
-            <h2>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              alias reprehenderit quaerat explicabo culpa dignissimos est
-              temporibus natus, quae assumenda! Assumenda ipsa doloremque
-              laboriosam in dolor, quisquam labore quidem saepe.
+            <h2 className="carousel__title">
+              nos gustan las relaciones <span>a largo plazo</span>
             </h2>
+            <p className="carousel__text">
+              Pensar en el otro, valorarnos, estar cerca, crecer juntos. Ser
+              amigos, más que proveedores. <br />
+              Tener una relación humana, más que una relación solamente
+              transaccional.
+            </p>
           </div>
-          <div>
-            <h2>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              alias reprehenderit quaerat explicabo culpa dignissimos est
-              temporibus natus, quae assumenda! Assumenda ipsa doloremque
-              laboriosam in dolor, quisquam labore quidem saepe.
+          <div className="carousel__container">
+            <h2 className="carousel__title">
+              nuestras acciones, son
+              <br /> nuestra mejor
+              <span>carta de presentacion</span>
             </h2>
+            <p className="carousel__text">
+              eso significa alejarnos de calificaciones como: 'los mejores', y
+              utilizar expresiones como: 'cada vez mejor'. una invitacion a
+              retarnos constantemente y estar en aprendizaje continuo para
+              sorprenderte, cada dia, con nuevas cosas.
+            </p>
           </div>
-          <div>
-            <h2>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              alias reprehenderit quaerat explicabo culpa dignissimos est
-              temporibus natus, quae assumenda! Assumenda ipsa doloremque
-              laboriosam in dolor, quisquam labore quidem saepe.
+          <div className="carousel__container">
+            <h2 className="carousel__title">
+              diversion: <span>siempre!</span>
             </h2>
+            <p className="carousel__text">
+              Un juego de ping pong, un cafe, clases de guitarra... Un espacio
+              libre de jerarquias y lleno de creatividad, entre amigos.
+            </p>
           </div>
         </Carousel>
       </div>

@@ -1,11 +1,13 @@
 import "./App.css";
 import Home from "./Components/home/Home";
+import HomeVideo from "./Components/home/HomeVideo";
 import Navbar from "./Components/layout/Navbar";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <HomeVideo />
       <Home />
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet

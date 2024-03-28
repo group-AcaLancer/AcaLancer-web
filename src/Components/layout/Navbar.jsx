@@ -24,7 +24,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 800) {
+      if (window.innerWidth <= 870) {
         setBelow800(true);
         setScrolled(true);
       } else {
@@ -60,9 +60,9 @@ const Navbar = () => {
         }`}
       >
         <nav className="navbar">
-          <a className="navbar__name">
+          <div className="navbar__name">
             <h2>LOGO</h2>
-          </a>
+          </div>
           <div
             className={`navbar__containerMenu ${menuActivo ? "active" : ""}`}
           >
@@ -88,11 +88,11 @@ const Navbar = () => {
               <li>
                 <a href="#Blog">Blog</a>
               </li>
-              <li className="">
+              <div className="container__btn">
                 <a href="#CotizaAhora" className="navbar__btn">
                   COTIZA AHORA!
                 </a>
-              </li>
+              </div>
             </ul>
           </div>
           <div
